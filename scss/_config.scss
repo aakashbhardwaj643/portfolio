@@ -1,0 +1,29 @@
+$font-stack: "Raleway", sans-serif;
+$light-color: #fff;
+$background-color: #f0f3f4;
+$primary-color: #00203fff;
+$secondary-color: goldenrod;
+$screensize-small: 500px;
+$screensize-medium: 1024px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack;
+  overflow-x: hidden;
+  line-height: 1.4;
+  background-color: $background-color;
+}
+
+a {
+  text-decoration: none;
+  color: $light-color;
+}
+
+ul {
+  list-style-type: none;
+}

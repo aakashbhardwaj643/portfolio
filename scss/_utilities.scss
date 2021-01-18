@@ -1,0 +1,132 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.particle-container {
+  height: 100vh;
+}
+
+.s-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+
+  @media screen and (max-width: $screensize-small) {
+    font-size: 1rem;
+  }
+}
+
+.m-heading {
+  font-size: 2rem;
+  color: $primary-color;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+
+  @media screen and (max-width: $screensize-small) {
+    font-size: 1.5rem;
+  }
+}
+
+.l-heading {
+  font-size: 3rem;
+
+  @media screen and (max-width: $screensize-small) {
+    font-size: 2rem;
+  }
+}
+
+.lead {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+
+  @media screen and (max-width: $screensize-small) {
+    font-size: 1rem;
+  }
+}
+
+.underline {
+  border-bottom: 3px solid $secondary-color;
+}
+
+.hand {
+  color: goldenrod;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: goldenrod, $alpha: 0.3);
+  transition: opacity 0.2s ease-in;
+
+  &:hover {
+    opacity: 0;
+  }
+}
+
+.tech-tag {
+  font-size: 0.7rem;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  padding: 0.2rem 0.3rem;
+  margin-right: 0.5rem;
+}
+
+.svg-style {
+  transform: translateY(10%);
+}
+
+.svg-style-2 {
+  transform: translateY(-10%);
+}
+
+.svg-footer {
+  transform: translateY(10%);
+}
+
+.sass-icon {
+  color: palevioletred;
+}
+
+.js-icon {
+  color: yellow;
+}
+
+.twitter,
+.linkedin,
+.github,
+.gmail {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.twitter {
+  background-color: green;
+}
+
+.linkedin {
+  background-color: #1871db;
+}
+
+.github {
+  background-color: black;
+}
+
+.gmail {
+  background-color: red;
+}
+
+.linkedin-icon,
+.twitter-icon,
+.github-icon,
+.mail-icon {
+  font-size: 1.5rem;
+}
